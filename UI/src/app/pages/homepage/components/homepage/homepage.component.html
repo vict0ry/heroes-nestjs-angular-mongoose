@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="cards">
+      <div class="col m12">
+        <h1 class="title">{{ "Top Heroes" | translate }}</h1>
+        <div class="col l2 s12" *ngFor="let hero of ($heroesList | async).slice(0, 3)">
+          <app-hero-card routerLink="/detail/{{hero._id}}" [name]="hero.name"></app-hero-card>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="search-area">
+      <div class="col m4">
+        <label for="searchbox">{{ "Find Hero" | translate }}</label>
+        <input type="text" #searchBox id="searchbox" name="searchbox" (keyup)="searchHero(searchBox.value)">
+        <a routerLink="/detail/{{heroSearchItem._id}}" class="hero-search-item" *ngFor="let heroSearchItem of (heroes$ | async)">
+          {{heroSearchItem.name}}
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.hero-card {
+  font-weight: bold;
+  background: gray;
+  color: white;
+  min-height: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &:hover {
+    background: #afafaf;
+    cursor: pointer;
+  }
+}

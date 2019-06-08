@@ -1,0 +1,16 @@
+.cards {
+  margin-top: 20px;
+}
+
+.hero-search-item {
+  background: #eeeeee;
+  padding: 2px 0 2px 5px;
+  border-bottom: 1px solid #d6cbcb;
+  cursor: pointer;
+  display: block;
+
+  &:hover {
+    background: gray;
+    color: white;
+  }
+}

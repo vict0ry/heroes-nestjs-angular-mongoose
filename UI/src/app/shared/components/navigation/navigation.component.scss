@@ -1,0 +1,23 @@
+.navigation {
+  margin-top: 40px;
+
+  a {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+
+    &:first-of-type {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      background: #a7a7a7;
+      color: white;
+    }
+
+    &.is-selected {
+      background: #c5c5c5;
+      color: white;
+    }
+  }
+}

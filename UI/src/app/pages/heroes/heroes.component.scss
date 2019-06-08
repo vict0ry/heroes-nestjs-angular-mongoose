@@ -1,0 +1,47 @@
+.hero-collection {
+  background: gray;
+  color: white;
+  margin-top: 10px;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+
+  .hero-id {
+    background: #a7a7a7;
+    padding: 5px 10px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+
+  .hero-removal {
+    padding: 5px 10px;
+    color: white;
+    border-left: 1px solid white;
+    font-size: 1.3rem;
+
+    &:hover {
+      color: red;
+      cursor: pointer;
+    }
+  }
+
+  &:hover {
+    background: black;
+  }
+
+  .hero-name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+strong {
+  font-size: 1.5rem;
+  border-bottom: 1px solid gray;
+}
+
+.selected-hero {
+  margin-bottom: 10px;
+}
