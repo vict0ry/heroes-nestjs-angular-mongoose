@@ -28,7 +28,7 @@
     "global": "^4.3.2",
     "hammerjs": "^2.0.8",
     "jquery": "2.2.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "materialize-css": "^0.100.2",
     "moment": "^2.24.0",
     "ng2-nouislider": "^1.7.13",
