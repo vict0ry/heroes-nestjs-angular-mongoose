@@ -30,7 +30,7 @@
     "jquery": "2.2.4",
     "lodash": "^4.17.11",
     "materialize-css": "^0.100.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "ng2-nouislider": "^1.7.13",
     "ngx-daterangepicker-material": "^2.1.0",
     "ngx-materialize": "^6.1.3",
